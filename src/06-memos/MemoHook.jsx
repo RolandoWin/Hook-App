@@ -2,8 +2,9 @@ import { useState, useMemo } from 'react';
 import { useCounter } from '../hooks/useCounter';
 
 const heavyStuff = ( iterationNumber = 100 ) => {
+
     for (let i = 0; i < iterationNumber; i++) {
-        console.log('Ahi vamos 👍🏻');
+        //console.log('Ahi vamos 👍🏻');
     }
 
     return `${ iterationNumber } número de iteraciones realizadas`;
